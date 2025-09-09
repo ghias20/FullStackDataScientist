@@ -1,0 +1,7 @@
+file1=open("text","w")
+file1.write("Welcome to tekWorks.")
+file1.close()
+file1=open("text","r")
+cont=file1.read()
+words=cont.split()
+print("The no of words in the file are : ",len(words))
